@@ -7,20 +7,26 @@
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
-        <StartupItem ItemId="{A9E7F5AD-5744-481B-B31C-C5DA46A0EE9D}" ItemName="APIGateway" ConfigurationId="Default" />
         <StartupItem ItemId="{974A35C1-4A85-47A0-AD0F-AF006B79682C}" ItemName="ProductService" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="APIGateway/ocelot.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductService/Program.cs">
     <Files>
-      <File FileName="APIGateway/ocelot.json" Line="19" Column="1" />
-      <File FileName="APIGateway/Program.cs" Line="4" Column="47" />
+      <File FileName="ProductService/Program.cs" Line="27" Column="2" />
+      <File FileName="ProductService/Controllers/NewProductController.cs" Line="30" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MicroserviceExample" expanded="True" selected="True" />
+          <Node name="MicroserviceExample" selected="True">
+            <Node name="ProductService">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">

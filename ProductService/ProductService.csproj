@@ -24,6 +24,7 @@
     <None Remove="Filters\" />
     <None Remove="Contracts\" />
     <None Remove="Middlewares\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -32,5 +33,6 @@
     <Folder Include="Filters\" />
     <Folder Include="Contracts\" />
     <Folder Include="Middlewares\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>

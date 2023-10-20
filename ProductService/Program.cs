@@ -2,6 +2,7 @@
 using ProductService.Data;
 using ProductService.Filters;
 using ProductService.Middlewares;
+using ProductService.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>
     );
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
